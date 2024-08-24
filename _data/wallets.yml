@@ -61,7 +61,7 @@
     - linux
 
 - name: 과르다
-  logo: /assets/img/pages/wallet/guarda1.png
+  logo: /assets/img/pages/wallet/guarda wallet.png
   url: https://guarda.com/
   asset-support: false
   platforms:
@@ -87,7 +87,7 @@
     - google-play-badge
 
 - name: 온빗
-  logo: /assets/img/pages/wallet/ownbit1.png
+  logo: /assets/img/pages/wallet/ownbit wallet.png
   url: https://ownbit.io/
   asset-support: false
   platforms:
@@ -119,7 +119,7 @@
     - google-play-badge
 
 - name: 티제로
-  logo: /assets/img/pages/wallet/tzero1.png
+  logo: /assets/img/pages/wallet/tzero wallet.png
   url: https://www.tzero.com/crypto
   asset-support: false
   platforms:
