@@ -1,4 +1,4 @@
-- name: Atomic
+- name: 아토믹
   logo: /assets/img/pages/wallet/atomic.png
   url: https://atomicwallet.io/
   asset-support: false
@@ -9,7 +9,7 @@
     - mac
     - linux
 
-- name: Cobo
+- name: 코보
   logo: /assets/img/pages/wallet/cobo.png
   url: https://cobo.com/
   asset-support: false
@@ -17,7 +17,7 @@
     - app-store-badge
     - google-play-badge
 
-- name: Coinpayments
+- name: 코인페이먼트
   logo: /assets/img/pages/wallet/coinpayments.png
   url: https://www.coinpayments.net/apps
   asset-support: false
@@ -25,7 +25,7 @@
     - app-store-badge
     - google-play-badge
 
-- name: Crypto.com
+- name: 크립토닷컴
   logo: /assets/img/pages/wallet/crypto.com.png
   url: https://www.crypto.com/en/index.html
   asset-support: false
@@ -33,7 +33,7 @@
     - app-store-badge
     - google-play-badge
 
-- name: D'CENT
+- name: 디센트
   logo: /assets/img/pages/wallet/dcentwallet.png
   url: https://dcentwallet.com
   asset-support: false
@@ -41,14 +41,7 @@
     - app-store-badge
     - google-play-badge
 
-- name: Dove
-  logo: /assets/img/pages/wallet/dove.png
-  url: https://dovewallet.com/
-  asset-support: false
-  platforms:
-    - world-wide-web
-
-- name: Edge
+- name: 엣지
   logo: /assets/img/pages/wallet/edge.png
   url: https://edge.app/
   asset-support: false
@@ -56,7 +49,7 @@
     - app-store-badge
     - google-play-badge
 
-- name: Exodus
+- name: 엑소두스
   logo: /assets/img/pages/wallet/exodus.png
   url: https://www.exodus.io/download/
   asset-support: false
@@ -67,19 +60,8 @@
     - mac
     - linux
 
-- name: Flare
-  logo: /assets/img/pages/wallet/flare.png
-  url: https://flarewallet.io/
-  asset-support: false
-  platforms:
-    - google-play-badge
-    - app-store-badge
-    - windows
-    - mac
-    - linux
-
-- name: Guarda
-  logo: /assets/img/pages/wallet/guarda.png
+- name: 과르다
+  logo: /assets/img/pages/wallet/guarda1.png
   url: https://guarda.com/
   asset-support: false
   platforms:
@@ -89,23 +71,14 @@
     - linux
     - world-wide-web
 
-- name: Hebe
-  logo: /assets/img/pages/wallet/hebe.png
-  url: https://hebe.cc/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    - world-wide-web
-
-- name: Mango Farm
+- name: 망고팜
   logo: /assets/img/pages/wallet/mango-farm-logo.png
   url: https://mangofarmassets.com/
   asset-support: true
   platforms:
     - world-wide-web
 
-- name: NOW
+- name: 나우
   logo: /assets/img/pages/wallet/NOW_wallet_logo.png
   url: https://walletnow.app/
   asset-support: false
@@ -113,15 +86,15 @@
     - app-store-badge
     - google-play-badge
 
-- name: Ownbit
-  logo: /assets/img/pages/wallet/ownbit.png
+- name: 온빗
+  logo: /assets/img/pages/wallet/ownbit1.png
   url: https://ownbit.io/
   asset-support: false
   platforms:
     - app-store-badge
     - google-play-badge
 
-- name: Qortal
+- name: 쿠오탈
   logo: /assets/img/pages/wallet/qortal.png
   url: https://qortal.org/downloads/
   asset-support: false
@@ -130,33 +103,14 @@
     - mac
     - linux
 
-- name: SevenB
+- name: 세븐비
   logo: /assets/img/pages/wallet/7b.png
   url: https://sevenb.io/
   asset-support: false
   platforms:
     - google-play-badge
 
-- name: Safepay
-  logo: /assets/img/pages/wallet/safepay.png
-  url: https://safepay.safecoin.org/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    - windows
-    - linux
-    - world-wide-web
-
-- name: Stibits
-  logo: /assets/img/pages/wallet/stibits.png
-  url: https://www.stibits.com/
-  asset-support: true
-  platforms:
-    - app-store-badge
-    - google-play-badge
-
-- name: Trust
+- name: 트러스트
   logo: /assets/img/pages/wallet/trust.png
   url: https://trustwallet.com/
   asset-support: false
@@ -164,39 +118,10 @@
     - app-store-badge
     - google-play-badge
 
-- name: tZERO
-  logo: /assets/img/pages/wallet/tzero.png
+- name: 티제로
+  logo: /assets/img/pages/wallet/tzero1.png
   url: https://www.tzero.com/crypto
   asset-support: false
   platforms:
     - app-store-badge
     - google-play-badge
-
-- name: Zelcore
-  logo: /assets/img/pages/wallet/zelcore.png
-  url: https://zel.network/project/zelcore/
-  asset-support: true
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    - windows
-    - mac
-    - linux
-
-- name: CoinUs
-  logo: /assets/img/pages/wallet/CoinUs.png
-  url: https://www.coinus.io/
-  asset-support: true
-  platforms:
-    - app-store-badge
-    - google-play-badge
-
-- name: SimpleHold
-  logo: /assets/img/pages/wallet/simplehold.png
-  url: https://simplehold.io/
-  asset-support: yes
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    - windows
-    - mac
