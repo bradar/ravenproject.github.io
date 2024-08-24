@@ -1,83 +1,39 @@
-- name: Ravenpool.ninja
+- name: 레이븐풀.닌자
   url: https://ravenpool.ninja/
   twitter: '@RavenpoolNinja'
 
-- name: RavenMiner
-  url: https://www.ravenminer.com/
-  twitter: '@RavenMinerPool'
-
-- name: WoolyPooly
+- name: 울리풀리
   url: https://woolypooly.com/
   twitter: '@Woolypooly_com'
- 
-- name: Flypool
-  url: https://ravencoin.flypool.org/
-  twitter: '@etherchain_org'
 
-- name: 2Miners
+- name: 투마이너스
   url: https://2miners.com
   twitter: '@pool2miners'
 
-- name: Bsod
+- name: 비에스오디
   url: https://bsod.pw
   twitter: '@BsodPool'
 
-- name: Suprnova
+- name: 슈퍼노바
   url: https://rvn.suprnova.cc/index.php
   twitter: '@SuprnovaPools'
 
-- name: Nanopool
+- name: 나노풀
   url: https://rvn.nanopool.org/
   twitter: '@nanopool_org'
 
-- name: Blocksmith
-  url: https://rvn.bsmith.io/
-  twitter: ''
-
-- name: Binary-Longevity
-  url: https://binarylongevity.com/ravencoin-mining-pool/
-  twitter: ''
-
-- name: MiningPoolHub
+- name: 마이닝풀허브
   url: https://ravencoin.miningpoolhub.com/
   twitter: ''
 
-- name: HeroMiners
+- name: 히어로마이너스
   url: https://ravencoin.herominers.com
   twitter: '@HeroMinerss'
 
-- name: Mole-Pool
-  url: https://rvn.mole-pool.net/
-  twitter: ''
-  
-- name: Skypool
-  url: https://rvn.skypool.org/
-  twitter: ''
-
-- name: Cruxpool
+- name: 크룩스풀
   url: https://cruxpool.com/
   twitter: '@cruxpool'
 
-- name: Crypticwizardry
-  url: https://www.crypticwizardry.com/
-  twitter: ''
-
-- name: CryptoRUSH
-  url: https://www.cryptoru.sh/
-  twitter: '@CryptoRUSH_Gav'
-
-- name: Ravenclause-WallstreetV2
-  url: https://pool.wallstreetv2.com/
-  twitter: ''
-  
-- name: Kaww.io
-  url: https://kaww.io/
-  twitter: '@kaww_io'
-  
-- name: KryptexPool
-  url: https://pool.kryptex.com/rvn
+- name: 크립텍스풀
+  url: https://kryptex.network/en/rvn
   twitter: '@KryptexMining'
-
-- name: OKMINER 
-  url: https://okminer.com
-  twitter: '@OkminerPool'
