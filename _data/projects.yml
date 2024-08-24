@@ -1,271 +1,137 @@
-- name: RavencoinHelper OS
+- name: 일렉트럼 레이븐코인
   description: >
-    RavencoinHelperOS is an Operating System framework for everything Ravencoin.
-    A foundation of services that are focused upon the Ravencoin Blockchain.
-    Its intent is to consolidate everything about Ravencoin,
-    and to present it all, to the user for easy access!
+     일렉트럼 레이븐코인 지갑은 완전한 레이븐코인 코어 지갑을 실행할 수 없거나, 이를 원하지 않은 사용자를 위한 하드웨어 지갑 기능 지원을 허용하는 가벼운 지갑입니다.
   project_sites:
-    - name: RavencoinHelper OS
-      url: https://ravencoinhelper.com
-  roadmap:
-    - name: Research & Implement a stable, flexible Operating System across many platforms
-      value: complete
-    - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
-      value: complete
-    - name: Creating Options for more flexibility of IPFS
-      value: complete
-    - name: Creating Wiki of all things Ravencoin
-      value: complete
-    - name: Creating web download package for Windows, OSX and Raspberry Pi
-      value: complete
-    - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
-      value: testing
-    - name: Creating application download and install function for Ravencoin projects.
-      value: testing
-    - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
-      value: testing
-    - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
-      value: upcoming
-    - name: Creating Github Repository
-      value: upcoming
-  social:
-    - name: RavencoinHelper OS
-      url: https://twitter.com/technobuddha
-
-- name: Electrum Ravencoin
-  description: >
-    The Electrum Ravencoin wallet is meant to be a light weight wallet for users who are unable or unwilling
-    to run a full ravencoin core wallet as well as allow for hardware support for users. It runs on a "shared node" system
-    where users can wrap an electrum server around a Ravencoin node which allows electrum clients to get information about
-    their addresses. Includes all major features of the core wallet in addition to IPFS integration and atomic swaps.
-  project_sites:
-    - name: Electrum Client
+    - name: 일렉트럼 클라이언트
       url: https://github.com/Electrum-RVN-SIG/electrum-ravencoin
-    - name: Electrum Server
+    - name: 일렉트럼 서버
       url: https://github.com/Electrum-RVN-SIG/electrumx-ravencoin
-    - name: Server and Protocol Documentation
+    - name: 서버 및 프로토콜 서류
       url: https://electrumx-ravencoin.readthedocs.io/en/latest/protocol-methods.html
   roadmap:
-    - name: Convert the base electrum repository to Ravencoin
-      value: complete
-    - name: Convert the electrum server to be asset aware
-      value: complete
-    - name: Allow ledger hardware RVN transactions
-      value: complete
-    - name: Allow trezor hardware RVN transactions
-      value: complete
-    - name: Allow users to see assets
-      value: complete
-    - name: Allow software to send assets
-      value: complete
-    - name: Allow ledger to send assets
-      value: ledger unable to support
-    - name: Allow trezor to send assets
-      value: upcoming
-    - name: Execute atomic swaps
-      value: complete
-    - name: Create and share atomic swaps
-      value: complete
-    - name: Create, Reissue, and Tag with assets
-      value: complete
-    - name: Allow users to create atomic swaps as per RIP15
-      value: complete
+    - name: 기본 일렉트럼 저장소를 레이븐코인으로 변환
+      value: 완료
+    - name: 일렉트럼 서버를 자산 인식 가능 서버로 변환
+      value: 완료
+    - name: 렛저 콜드지갑 레이븐코인 거래 지원
+      value: 완료
+    - name: 트레저 콜드지갑 레이븐코인 거래 지원
+      value: 완료
+    - name: 사용자 자산 뷰어 기능
+      value: 완료
+    - name: 소프트웨어 자산 전송 허용
+      value: 테스팅중
+    - name: 렛저 자산 전송 허용
+      value: 테스팅중
+    - name: 트레저 자산 전송 허용
+      value: 테스팅중
+    - name: 아토믹 스왑 실행
+      value: 예정
+    - name: 아토믹 스왑 생성 및 공유
+      value: 예정
+    - name: 자산 생성, 재전송 및 태그 기능
+      value: 예정
+    - name: RIP15당 아토믹 스왑 생성 허용
+      value: 예정
   social:
-    - name: Discord
+    - name: 디스코드
       url: https://discord.gg/VuubYncHz4
 
-- name: Atomic Swaps
+- name: 아토믹 스왑
   description: >
-    Atomic swaps allow for on-chain trades between ravencoin and ravencoin assets, or between two different ravencoin
-    assets. This provides all the needed functionality to make Buy, Sell, and Trade orders that others may execute at
-    will. In addition, these partial orders can be specially signed such that they are easily shared and completable
-    by another party, allowing for clean 2-step orders where that can be shared through any number of side-channels.
+     아토믹 스왑은 레이븐코인과 레이븐코인 자산 또는 2개의 다른 레이븐코인 자산간의 온체인 거래를 허용합니다. 이것은 다른 사람들이 마음대로 실행할 수 있는 매수,매도 및 거래 주문을 만드는데 필요한 모든 기능을 제공합니다. 또한 이러한 부분 주문은 다른 당사자가 쉽게 공유하고 완료할 수 있도록 특별히 서명할 수 있으므로, 여러 사이드 채널을 통해 공유할 수 있는 깔끔한 2단계 주문이 가능합니다.
   project_sites:
-    - name: RIP-15 Specification
+    - name: RIP-15 사양
       url: https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki
-    - name: RavenTraderPro - Desktop Client (python)
+    - name: 레이븐트레이더프로 - 데스크톱 클라이언트 (파이썬)
       url: https://github.com/ben-abraham/raven-trader-pro
-    - name: RavenTrader - Server (C#)
+    - name: 레이븐트레이더 - 서버 (C#)
       url: https://github.com/ben-abraham/raven-trader
-    - name: Core Wallet - Atomic Swap PR
+    - name: 코어 지갑 - 아토믹 스왑 PR
       url: https://github.com/RavenProject/Ravencoin/pull/1083
   roadmap:
-    - name: Process for creating swaps
-      value: complete
-    - name: Support buy/sell/trade orders
-      value: complete
-    - name: Public site sharing incomplete orders
-      value: complete
-    - name: Dedicated client able to execute swaps
-      value: complete
-    - name: Dedicated client able to create swaps
-      value: complete
-    - name: Dedicated client able to post swaps to public site
-      value: complete
-    - name: Core wallet able to view swaps in detail
-      value: submitted
-    - name: Core wallet able to execute swaps
-      value: submitted
-    - name: Core wallet able to create swaps
-      value: upcoming
-    - name: Automated create/listing/execution of orders. (Effectively a self-hosted LP)
-      value: upcoming
+    - name: 스왑 생성을 위한 과정
+      value: 완료
+    - name: 매수/매도/거래 주문 지원
+      value: 완료
+    - name: 미완료 주문 공유 공개 사이트
+      value: 완료
+    - name: 스왑을 실행할 수 있는 전용 클라이언트
+      value: 완료
+    - name: 스왑을 생성할 수 있는 전용 클라이언트
+      value: 완료
+    - name: 공개 사이트에 스왑을 게시할 수 있는 전용 클라이언트
+      value: 완료
+    - name: 스왑을 자세히 볼 수 있는 코어 지갑
+      value: 제출 완료
+    - name: 스왑 실행 가능한 코어 지갑
+      value: 제출 완료
+    - name: 스왑 생성 가능 코어 지갑
+      value: 예정
+    - name: 자동 주문 생성/목록화/실행 (실질적으로는 자체 호스팅 LP)
+      value: 예정
 
 - name: RVNFT
   description: >
-    RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
-    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more.
-    Let RVNFT add it to the Network, so you can focus on what you do best.
+    RVNFT는 레이븐코인 블록체인 네트워크의 전체 서비스 NFT 토큰화 플랫폼입니다. 나만의 예술작품, 게임 보상권, 노래, 영화, 정품 인증서 등을 생성할 수 있습니다. RVNFT가 이를 네트워크에 추가하도록 하면 귀하가 가장 잘하는 일에 집중할 수 있습니다.
   project_sites:
     - name: RVNFT
       url: https://www.rvnft.art/
-    - name: RVNFT Marketplace
+    - name: RVNFT 마켓플레이스
       url: https://www.rvnft.art/nft-marketplace/
-    - name: RVNFT Gallery
+    - name: RVNFT 갤러리
       url: https://www.rvnft.art/rvn-nft-gallery/
     - name: RVNBAY/RVNFT
       url: https://rvnbay.com/category/rvnft/
   social:
-    - name: RVNFT Discord
+    - name: RVNFT 디스코드
       url: https://discord.gg/ZSqqS5Gr
-    - name: RVNFT Twitter
+    - name: RVNFT 트위터
       url: https://twitter.com/RVNFT_ART
-    - name: RVNFT Instagram
-      url: https://www.instagram.com/rvnft.art/
-    - name: Find RVNFT NFTs on Raven Trader
+    - name: RVNFT 인스타그램
+      url: https://www.instagram.com/rvnft.art
+    - name: 레이븐 트레이더에서 RVNFT의 NFT 검색
       url: https://raventrader.net/
 
-- name: SYNTH
+- name: 스콰커 프로토콜
   description: >
-    SYNTH is a digital guild based on the Main RVN Token which aims to augment the
-    Ravencoin NFT/Cyber Collectible community. SYNTH uses tokens as a company structure,
-    and offers a range of different NFT/token types on various marketplaces.
-    SYNTH has also produced a user friendly front end for current RVN marketplaces & swap
-    options, as well as a private high speed IPFS network to host NFTs/Tokens for ourselves &
-    partnered NFT creators.
-
+   스콰커는 검열이 불가능한 커뮤니케이션 도구입니다. 자산 전송을 사용하여, IPFS 파일 해시의 의미를 나타내면, 누구나 원하는 것을 말할수 있습니다. 탈중앙화 채굴과 작업 증명의 힘을 통해 당신의 메시지는 블록체인에서 받아들여질 것입니다. IPFS 파일 해시가 고정되어 있는 한 블록체인과 IPFS 게이트웨티(둘 모두 자체 호스팅 가능)에 대한 접근 권한이 있는 사람은 해당 콘텐츠를 사용할 수 있습니다.
   project_sites:
-    - name: NiftySynth - Website/Blog for Synth Token
-      url: https://www.niftysynth.com/
-    - name: rvnBay
-      url: https://rvnbay.com
-    - name: GradeSynth IPFS Gateway
-      url: https://gradesynth.com/ipfs/QmPJeUzChXMSfe3uoXxLTqWP2MR8u1CdFuurUZXRvjed9U/
-
-  social:
-    - name: SYNTH Discord
-      url: https://discord.gg/R2pveQWx
-    - name: SYNTH Twitter
-      url: https://twitter.com/NiftySynth
-
-- name: RavenWallet by MoonTree
-  description: >
-    The RavenWallet sponsored by MoonTree is a full featured raven specific mobile wallet.
-    From this wallet users can send and receive RVN, Create distribute and manage Assets,
-    as well as trade assets on a distributed exchange in the form of atomic swaps.
-
-  project_sites:
-    - name: Raven Source Code - a dart library for the projects underlying functionality.
-      url: https://github.com/moontreeapp
-
-  roadmap:
-    - name: Investigate BlueWallet Fork
-      value: complete
-    - name: Create Underlying Library for Dart/Flutter App
-      value: testing
-    - name: Create Flutter UI
-      value: upcoming
-    - name: Add Asset Creation and Transaction Functionality
-      value: upcoming
-    - name: Add Asset Management Functionality
-      value: upcoming
-    - name: Add Asset Distributed Exchange Functionality
-      value: upcoming
-  social:
-    - name: Discord
-      url: https://discord.gg/pEnHZbqhZV
-
-- name: Squawker Protocol
-  description: >
-    Squawker is an uncensorable way to communicate with the world. By using asset transfers 
-    to denote the meaning of IPFS filehashes, anyone can say what they want. Through the 
-    power of decentralized mining and proof of work your message will be accepted onto the 
-    blockchain. As long as your IPFS filehash is pinned anyone with accesss to the 
-    blockchain and an ipfs gateway (both are self hostable) can consume that content.
-  project_sites:
-    - name: Squawker
+    - name: 스콰커
       url: https://squawker.app
-    - name: Squawker Protocol and Proof of concept code
+    - name: 스콰커 프로토콜 및 컨셉 증명 코드
       url: https://github.com/Tylerlhess/Squawker
-    - name: Squawker API - source for the backend api 
+    - name: 스콰커 API - 백엔드 API 소스 코드
       url: https://github.com/Tylerlhess/SquawkerAPI
   roadmap:
-    - name: Provide Minimum Viable Product as a website
-      value: complete
-    - name: Add Profile creation/curation capabilities
-      value: complete
-    - name: Add Blog/Article posting
-      value: complete
-    - name: Source a web based signing mechanism
-      value: complete - Thanks @RavenRebels
-    - name: Move site contents into a cached database from on-chain lookups.
-      value: ongoing
-    - name: Implement a reply system
-      value: upcoming
-    - name: RSS style feeds for users and articles
-      value: upcoming
-    - name: New Webui
-      value: Send Help
-    - name: Implement onboarding process w/ 12 word wallet generation and initial Kaw
-      value: upcoming
-    - name: Add Asset Encryption Tag sales directly through the site.
-      value: upcoming
-    - name: Source or generate a chrome plugin for in browser RIP 11 decryption
-      value: upcoming
-    - name: Add targeted encyption messages to the protocol - way to denote what decryption key is needed for this message.
-      value: upcoming
+    - name: 웹사이트를 통한 MVP 제공
+      value: 완료
+    - name: 프로파일 생성 및 큐레이션 기능 추가
+      value: 완료
+    - name: 블로그/기사 게시 기능 추가
+      value: 완료
+    - name: 웹 기반 서명 메커니즘 소스
+      value: 완료- @RavenRebels에게 감사를 표합니다.
+    - name: 사이트 컨텐츠를 온체인 조회에서 캐시화된 데이터베이스로 이동
+      value: 진행중
+    - name: 답장 시스템 추가
+      value: 예정
+    - name: 사용자 및 기사를 위한 RSS 스타일 피드 추가
+      value: 예정
+    - name: 새로운 웹 인터페이스
+      value: 예정
+    - name: 12단어 지갑 생성 및 초기 Kaw로 온보딩 프로세스 구현
+      value: 예정
+    - name: 사이트를 통한 직접 자산 암호화 태그 판매 추가
+      value: 예정
+    - name: 브라우저 RIP 11 암호 해독을 위한 크롬 플러그인 소스 또는 생성
+      value: 예정
+    - name: 프로토콜에 대상 암호화된 메시지 추가- 메시지에 필요한 암호 해독키를 표시하는 방법
+      value: 예정
   social:
-    - name: Squawker Twitter
+    - name: Squawker 트위터
       url: https://twitter.com/Squawker__
-    - name: (Lead/only Dev) BadGuyTy Twitter
+    - name: (수석 개발자) BadGuyTy 트위터
       url: https://twitter.com/badguyty
-    - name: Discord - @badguyty
+    - name: 디스코드- @badguyty
       url: https://discord.gg/pEnHZbqhZV
-
-- name: NOWNodes
-  description: >
-    A blockchain as a service for Ravencoin nodes via API key. Blockchain-as-a-service solution that lets users get access to full Ravencoin nodes (shared & dedicated nodes on mainnet & testnet + archived nodes) via API key.
-    NOWNodes provides a high-quality, quick, cost-effective, and reliable infrastructure for developers, start-ups, and businesses that are developing Web 3 projects on the Ravencoin blockchain.
-    Service provides free API key access.
- 
-  project_sites:
-    - name: NOWNodes Set Up 
-      url: http://bit.do/nownodes-setup
-    - name: NOWNodes Documentation
-      url: https://documenter.getpostman.com/view/13630829/TVmFkLwy
-  
-  social:
-    - name: Support
-      url: https://t.me/+TdoSFV7MVXA1YWEy
-    - name: NOWNodes Twitter
-      url: https://twitter.com/NowNodes
-
-- name: Jackdaw Cryptocurrency
-  description: >
-    Jackdaw is a digital scarcity experiment issued on the Ravencoin blockchain. Jackdaw ($JDAW) is a Ravencoin Main Asset token with no governance structure or centralized authority. The Jackdaw token represents a truly decentralized and leaderless store of value. Jackdaw is limited to only 50 coins but was distributed to over 20,000 Ravencoin addresses during its distribution phase.
- 
-  project_sites:
-    - name: JackdawToken.com 
-      url: https://jackdawtoken.com/
-    - name: Whitepaper
-      url: https://jackdawtoken.com/jackdaw-whitepaper
-  
-  social:
-    - name: "@JackdawCrypto on X"
-      url: https://x.com/JackdawCrypto
-    - name: Discord
-      url: https://discord.com/invite/MAAS7et4vU
-    - name: Telegram
-      url: https://t.me/+nkh3L2FvyehlMTQx
-    - name: BTCtalk Announcement
-      url: https://bitcointalk.org/index.php?topic=5478183.0
