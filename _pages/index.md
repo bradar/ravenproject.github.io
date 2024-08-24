@@ -250,9 +250,10 @@ modalCacheRef: "4.6.1"
         <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">모든 거래소 보기</a></div>
    </div>
  <div class="bg-grey-lighter text-center" style="padding-bottom:50px">
+ <br>
+ <br>
    <h2 class="font-medium">트위터 업데이트</h2>
-   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoinkorea?ref_src=twsrc%5Etfw">레이븐코인 트윗</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoinkorea/likes?ref_src=twsrc%5Etfw">레이븐코인 라이크 트윗</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoinkorea">레이븐코인 코리아 트윗</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
  </div>
  <script src="/assets/vendors/mediabox/mediabox.js"></script>
  <script>
