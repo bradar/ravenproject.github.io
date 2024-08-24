@@ -63,8 +63,8 @@ permalink: /wallet/
             <img style="height: 25px; length: 16px; padding-right: 15px; padding-top: 4px;" src="/assets/img/pages/wallet/{{platform}}.svg"/>
           {% endfor %}
         </div>
-    
-   
+        {% endfor %}
+
 
 <style>
   .page-content a {
