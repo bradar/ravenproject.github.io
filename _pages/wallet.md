@@ -62,8 +62,11 @@ permalink: /wallet/
           {% for platform in wallet.platforms %}
             <img style="height: 25px; length: 16px; padding-right: 15px; padding-top: 4px;" src="/assets/img/pages/wallet/{{platform}}.svg"/>
           {% endfor %}
+          </div>
+          <a class="block mt-4 mb-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="{{ wallet.url }}"><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">{{wallet.name}} Wallet</span></a>
         </div>
         {% endfor %}
+      </div>
 
 
 <style>
