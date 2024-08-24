@@ -16,8 +16,3 @@ permalink: /updates/
 <div class="section-cta mt-4 pb-10">
   <iframe height='400' width='100%' src='https://cdn.forms-content.sg-form.com/8ec7a872-d599-11e9-ada2-7a44cc589a29'></iframe>
 </div>
-
-
-<div class="wrapper mt-4 pb-10">
-  	<a href='/devupdates'><h2>레이븐코인 개발자 업데이트 소식</h2></a>
-</div>
