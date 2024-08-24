@@ -2,14 +2,18 @@
   logo: /assets/img/pages/exchanges/Asset-2.png
   url: https://www.binance.com/kr/trade/RVN_BTC
 
+- name: 빗썸코리아
+  logo: /assets/img/pages/exchanges/Asset-3.png
+  url: https://www.bithumb.com/react/trade/order/RVN-KRW
+
 - name: 업비트
   logo: /assets/img/pages/exchanges/Asset-7.png
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
 
+- name: 오케이엑스
+  logo: /assets/img/pages/exchanges/Asset-4.png
+  url: https://www.okx.com/trade-spot/rvn-usdt
+
 - name: 후오비글로벌
   logo: /assets/img/pages/exchanges/huobigl.png
   url: https://www.htx.com/trade/rvn_usdt?type=spot
-
-- name: 오케이엑스
-  logo: /assets/img/pages/exchanges/OKX.png
-  url: https://www.okx.com/trade-spot/rvn-usdt
