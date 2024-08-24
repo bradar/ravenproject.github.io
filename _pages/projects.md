@@ -1,7 +1,7 @@
 ---
 layout: page-w-banner
-title: Projects
-bannerTitle: Ravencoin Projects
+title: 프로젝트
+bannerTitle: 레이븐코인 프로젝트
 bannerImage: /assets/img/pages/exchanges/exchange-banner.jpg
 permalink: /projects/
 ---
@@ -9,12 +9,12 @@ permalink: /projects/
 {% assign sorted_projects = site.data.projects | sort: "name" %}
 
 <div class="wrapper mt-16 pb-20">
-  <h2>Current Ravencoin Community Projects</h2>
-    <p>These projects are all created and ran by the Ravencoin community.</p>
+  <h2>현재 레이븐코인 커뮤니티 프로젝트</h2>
+    <p>이하 모든 프로젝트는 레이븐코인 커뮤니티에 의해 운영되고 있습니다.</p>
     <br>
-    <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
+    <p>프로젝트 추가를 원하시면,  <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">이 깃헙 웹페이지 데이터</a> 로 PR 신청을 해주시길 바랍니다.</p>
     <br>  
-    <h3>Table of Contents</h3>
+    <h3>목록</h3>
       <ul>
       {% for project in sorted_projects %}
           <li><a href="#{{ project.name }}">{{ project.name }}</a></li>
@@ -24,14 +24,14 @@ permalink: /projects/
       {% for project in sorted_projects %}
           <h3 id="{{ project.name }}">{{ project.name }}</h3>          
           <p>{{ project.description }}</p>
-          <h4>Project Websites</h4>
+          <h4>프로젝트 웹사이트</h4>
           <ul>
           {% for site in project.project_sites %}
           <li><a href="{{ site.url }}">{{ site.name }}</a></li>
           {% endfor %}
           </ul>
           {% if project contains "roadmap" %}
-          <h4>Project Roadmap</h4>
+          <h4>프로젝트 로드맵</h4>
           <ul>
           {% for value in project.roadmap %}
           <li>{{ value.name }} -- {{ value.value }}</li>
@@ -39,7 +39,7 @@ permalink: /projects/
           </ul>
           {% endif %}
           {% if project contains "social" %}
-          <h4>Get In Contact</h4>
+          <h4>소통 채널</h4>
           <ul>
           {% for site in project.social %}
           <li><a href="{{ site.url }}">{{ site.name }}</a></li>

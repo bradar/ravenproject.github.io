@@ -1,21 +1,15 @@
 ---
 layout: default
-title: Home
+title: 홈
 permalink: /
-modalTitle: "Announcement"
-modalContent: 'New Wallet Release: Upgrade to Version 4.6.1 <a href="/wallet">Click Here to Upgrade</a>'
+modalTitle: "공지"
+modalContent: '4.6.1 지갑 버전을 다운로드 할 수 있습니다. <a href="https://github.com/RavenProject/Ravencoin/releases">최신 지갑 다운로드를 위해, 여기를 클릭해 주시길 바랍니다.</a>'
 modalId: "upgrade-notification"
 modalCacheRef: "4.6.1"
 ---
 
 <link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
 <style>
-  .hero-buttons {
-    margin: 50px 0;
-  }
-  .hero-buttons .btn.btn-primary {
-    border: 2px solid #f15b22;
-  }
   .banner {
     background: url("/assets/img/home/gplaypattern.png");
     padding: 12em 0 13em;
@@ -57,12 +51,6 @@ modalCacheRef: "4.6.1"
   .section-exchange .wrapper {
     max-width: 800px;
   }
-  .enlarge-on-hover {
-    transition: transform .2s;
-  }
-  .enlarge-on-hover:hover {
-    transform: scale(1.05);
-  }
 
 @keyframes animatedBackground {
 0% { background-position: 0 0; }
@@ -84,79 +72,83 @@ modalCacheRef: "4.6.1"
 
 <div class="banner text-center">
   <div class="wrapper">
-    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
-    <div class="animated fadeInLeft hero-buttons">
-      <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">Get Your Wallet</a>
-      <a class="btn btn-ghost mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-black hover:text-white" href="/buy-ravencoin/">Buy Ravencoin</a>
+
+
+    <p style="margin-top:60px;"></P>
+    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">레이븐코인은 효율적인 자산 생성 및 전송을 위한</h1>
+    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">피어투피어 블록체인입니다. </h1>
+     <p style="margin-top:30px;"></P>
+    <div class="animated fadeInLeft">
+      <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">지갑 다운로드</a>
+      <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">레이븐코인 거래</a>
     </div>
+          <p style="margin-top:40px;"></P>
     <div class="video-icon animated fadeInRight flex content-center justify-center font-semibold mt-4" uk-lightbox>
       <a class="video-icon-button mr-4 mediabox" href="https://www.youtube.com/embed/fbfUvkZaw2w?rel=0&amp;showinfo=0">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
           <path d="M256,0C114.617,0,0,114.615,0,256s114.617,256,256,256s256-114.615,256-256S397.383,0,256,0z M344.48,269.57l-128,80  c-2.59,1.617-5.535,2.43-8.48,2.43c-2.668,0-5.34-0.664-7.758-2.008C195.156,347.172,192,341.82,192,336V176  c0-5.82,3.156-11.172,8.242-13.992c5.086-2.836,11.305-2.664,16.238,0.422l128,80c4.676,2.93,7.52,8.055,7.52,13.57  S349.156,266.641,344.48,269.57z" fill="#2e3e80"/>
         </svg>
       </a>
-    <span class="mt-2">What is Ravencoin?</span>
-    </div>
+    <span class="mt-2">레이븐코인 트레일러</span></div>
   </div>
   <br>
-  <br>
-  <h3><a href="https://raven.wiki/">Ravencoin Wiki</a></h3>
-  <h3><a href="https://ravencoin.foundation/">Ravencoin Foundation</a></h3>
-  <h3><a href="https://rvn-dashboard.com/">Ravencoin Dashboard</a></h3>
-  <br>
-  <br>
-  <br>
-</div>
+    <br>
+    <h3><a href="https://raven.wiki/">레이븐코인 위키</a></h3>
+    <h3><a href="https://ravencoin.foundation/">레이븐코인 재단</a></h3>
+    <h3><a href="https://rvn-dashboard.com/">레이븐코인 통계 대시보드</a></h3>
+    <br>
+    <br>
+    <br>
+  </div>
 <div class="section-intro text-white py-20">
   <div class="wrapper">
     <div class="text-center m-auto" style="max-width: 900px;">
-      <h2 class="text-white">Welcome to Ravencoin</h2>
-      <p style="max-width: 900px;" class="m-auto">Ravencoin is a protocol based on a fork of the Bitcoin code which adds features specifically focused on allowing tokens to be issued on the Ravencoin blockchain. These tokens can have whatever properties the issue of the token decides - so they can be limited in quantity, named and be issued as securities or as collectibles.</p>
-      <p class="mt-8">You can make your own security token within minutes and have it trade worldwide.</p>
+      <h2 class="text-white">레이븐코인 한국 페이지에 오신 것을 환영합니다.</h2>
+    <p style="margin-top:50px;"></P>
+      <p style="max-width: 900px;" class="m-auto">레이븐코인은 공공 블록체인에서 토큰 발행을 위해 </p>
+  <p style="margin-top:30px;"></P>
+        <p style="max-width: 900px;" class="m-auto">특별히 중점을 둔 자산 발행 및 전송 기능이 추가된, 비트코인 코드를 포크한 프로토콜입니다.  </p>
+        <p style="margin-top:30px;"></P>
+      <p class="mt-5">당신이 원하는 토큰을 몇 분안에 생성하여, 전 세계 어느 곳에서든 거래할 수 있습니다.</p>
       <hr class="border-b pt-6"/>
     </div>
     <hr class="my-8"/>
     <ul class="nav nav-tabs list-reset">
-      <li class="active"><a href="#tab-1">Project Shares</a></li>
-      <li class="tab-2"><a href="#tab-2">Virtual Goods</a></li>
-      <li class="tab-3"><a href="#tab-3">Physical &amp; Digital Assets</a></li>
-      <li class="tab-4"><a href="#tab-4">Credit</a></li>
+      <li class="active"><a href="#tab-1">프로젝트 주식</a></li>
+      <li class="tab-2"><a href="#tab-2">가상 상품</a></li>
+      <li class="tab-3"><a href="#tab-3">유형 &amp; 디지털 자산</a></li>
+      <li class="tab-4"><a href="#tab-4">크레딧 </a></li>
     </ul>
     <div class="tab-content">
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
+            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing a share of a project</h3>
-            <div class="flex flex-wrap">
-              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Gold bar</li>
-                <li>Silver coins</li>
-                <li>Physical Euros</li>
-              </ul>
-              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Land Deeds</li>
-                <li>DC Comics Presents #26</li>
-                <li>Energy credits (Electricity, Wood, Gas, Oil, Wind)</li>
+           <h3 class="text-white">현실 세계와 연결되는 물적 또는 디지털 자산 대체 </h3>
+            <ul class="list-reset">
+              <li>- 증권화 토큰:  주식 또는 주식 증명서 대신 회사의 지분을 토큰화</li>
+              <li>- 증권 또는 조합지분: 레이븐코인으로 배당금 지불</li>
+              <li>- 조합, 유한회사, 로열티 분배, 또는 이윤 분배 플랫폼: 토큰으로 대체</li>
+              <li>- CFLEX (시카고 옵션 거래소의 전자 거래 플랫폼)에서 거래되는</li>
+              <li> &nbsp;&nbsp; 자유로운 전송 및 거래가 가능한 옵션 또는 파생상품 토큰화</li>
               </ul>
             </div>
           </div>
-        </div>  
-      </div>
+        </div>
       <div id="tab-2" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
             <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="tickets"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing virtual goods</h3>
+            <h3 class="text-white">가상 상품 대체</h3>
             <ul class="list-reset">
-              <li>Tickets to an event such as a Baltimore Ravens game with the ability to resell without worry of duplicates being made</li>
-              <li>A license to allow an activity</li>
-              <li>An access token to use a service</li>
-              <li>In-game currency and items, transferable to other gamers outside of the game platform</li>
+              <li>- 티켓 위조의 우려 없이, 재판매 가능한 스포츠 경기 또는 콘서트 티켓 토큰화</li>
+              <li>- 사업자 자격증 또는 각종 라이센스 토큰화</li>
+              <li>- 피트니스 정기 회원권 또는 각종 입장권 토큰화</li>
+              <li>- 게임 플랫폼 외부의 게이머에게 전송 가능한 게임 아이템 또는 화폐 토큰화</li>
             </ul>
           </div>
         </div>
@@ -164,18 +156,25 @@ modalCacheRef: "4.6.1"
       <div id="tab-3" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
+            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-           <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
-            <ul class="list-reset">
-              <li>Securities tokens: stock or shares of a company where the shares are represented by a token rather than a physical stock certificate</li>
-              <li>Securities or partnership interests with the built-in ability to pay dividends in RVN</li>
-              <li>Tokens which represent a coop, limited partnership, royalty sharing or profit sharing platform</li>
-              <li>A token which represents a cflexd-funded item with the ability to transfer or resell the item</li>
-            </ul>  
+            <h3 class="text-white">실물 및 디지털 자산 대체</h3>
+            <div class="flex flex-wrap">
+              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
+                <li>- 골드바</li>
+                <li>- 은화</li>
+                <li>- 유로화</li>
+              </ul>
+              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
+                <li>- 땅문서</li>
+                <li>- 한정판 만화책</li>
+                <li>- 에너지 자산 </li>
+                <li> &nbsp;&nbsp;(전기, 나무, 가스, 오일, 풍력)</li>
+              </ul>
+            </div>
           </div>
-        </div>  
+        </div>
       </div>
       <div id="tab-4" class="tab-pane">
         <div class="flex flex-wrap">
@@ -183,11 +182,11 @@ modalCacheRef: "4.6.1"
             <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing a credit</h3>
+            <h3 class="text-white">크레딧 대체</h3>
             <ul class="list-reset">
-              <li>Gift cards</li>
-              <li>Airline miles</li>
-              <li>Reward points</li>
+              <li>-기프트 카드</li>
+              <li>-항공사 마일리지</li>
+              <li>-적립급</li>
             </ul>
           </div>
         </div>
@@ -199,15 +198,20 @@ modalCacheRef: "4.6.1"
   <div class="wrapper">
     <div class="flex flex-wrap">
       <div class="w-full sm:w-full md:w-3/4">
-        <h2>What Makes Ravencoin Different from Bitcoin?</h2>
-        <ul class="checkmark">
-          <li>Block reward of 5,000 RVN instead of 50 BTC.</li>
-          <li>Block time of 1 minute instead of 10.</li>
-          <li>Total coin supply of 21 billion instead of 21 million.</li>
-          <li>A new mining algorithm, KAWPOW which allows for more decentralized mining.</li>
-          <li>Addition of Asset & Sub-asset issuance, transfer, unique assets, and rewards.</li>
-          <li>Future addition of messaging and voting.</li>
-        </ul>
+      <br>
+      <br>
+      <br>  
+        <br>
+        <h2>레이븐코인과 비트코인의 차이점</h2>
+
+          <li><STRONG>블록당 보상(반감기 따라 변동): 50 비트코인 -> 5,000 레이븐코인</STRONG></li>
+          <li><STRONG>블록 생성 시간: 10분 -> 1분</STRONG></li>
+          <li><STRONG>코인 총 발행량: 2100만개-> 210억개</STRONG></li>
+          <li><STRONG>카포(KAWPOW)라는 탈중앙화된 채굴을 위한 새로운 채굴 알고리즘</STRONG></li>
+          <li><STRONG>디지털 자산, 부자산, 고유자산, 태그 및 제한 자산 발행 및 전송 기능 추가</STRONG></li>
+          <li><STRONG>배당, 메시징, 메모, 투표 기능 추가</STRONG></li>
+          <li><STRONG>투표 기능 추가 업그레이드 예정</STRONG></li>
+
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
         <img id="logo-why" class="animated" style="margin-top: 30px;" src="{{"/assets/img/home/raven-flock.png"}}" alt="ravencoin logo">
@@ -218,84 +222,85 @@ modalCacheRef: "4.6.1"
 <div class="section-cta py-10">
   <div class="flex flex-wrap wrapper">
     <div class="w-full sm:w-1/2 md:w-3/4">
-      <h2 class="text-white font-medium mb-3">Get Involved Today!</h2>
-      <p class="text-white">Become a part of the community and contribute to Ravencoin’s global decentralized network of miners, contributors, traders, and developers.</p>
+      <h2 class="text-white font-medium mb-3">레이븐코인 커뮤니티에 참여하세요!</h2>
+      <p class="text-white">레이븐코인 커뮤니티의 일원이 되어, 채굴자, 트레이더, 그리고 개발자로서 글로벌한 분산화 네트워크에 함께 해 주시길 바랍니다.</p>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/4 text-left sm:text-center">
-      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">Join the Community</a>
+      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">커뮤니티 목록</a>
     </div>
   </div>
 
 </div>
-<div class="section-exchange pt-20 pb-24 bg-grey-lighter text-center">
-  <h2 class="font-medium">Exchanges</h2>
+<div class="section-exchange pt-18 pb-20 bg-grey-lighter text-center">
+<br>
+<br>
+<br>
+  <h2 class="font-small font-bold">(국내 및 한글 지원) 거래소   <h2 class="font-small"> [가나다순]</h2>
   <div class="wrapper mt-8 m-auto">
     <div class="flex flex-wrap">
       {% for exchange in site.data.exchanges %}
       <div class="mb-6 px-2 sm:w-1/2 md:w-1/3">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey enlarge-on-hover">
+        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="{{ exchange.url }}" target="_blank" rel="nofollow"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
         </div>
       </div>
       {% endfor %}
-    </div>
+        </div>
       <div class="text-center">
-        <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">See All Exchanges</a>
-      </div>
-  </div>
-</div>
-<div class="bg-grey-lighter flex flex-col justify-center items-center" style="padding-bottom:50px">
-  <h2 class="font-medium">Twitter Updates</h2>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets Liked by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-<script src="/assets/vendors/mediabox/mediabox.js"></script>
-<script>
-  MediaBox('.mediabox');
-</script>
+        <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">모든 거래소 보기</a></div>
+   </div>
+ <div class="bg-grey-lighter text-center" style="padding-bottom:50px">
+   <h2 class="font-medium">트위터 업데이트</h2>
+   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoinkorea?ref_src=twsrc%5Etfw">레이븐코인 트윗</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoinkorea/likes?ref_src=twsrc%5Etfw">레이븐코인 라이크 트윗</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </div>
+ <script src="/assets/vendors/mediabox/mediabox.js"></script>
+ <script>
+   MediaBox('.mediabox');
+ </script>
 
-<script type="text/javascript">
-  window.addEventListener("load", function() {
+ <script type="text/javascript">
+   window.addEventListener("load", function() {
 
-    /* Tabs */
+     /* Tabs */
 
-    var myTabs = document.querySelectorAll("ul.nav-tabs > li");
-    function myTabClicks(tabClickEvent) {
-      for (var i = 0; i < myTabs.length; i++) {
-        myTabs[i].classList.remove("active");
-      }
-      var clickedTab = tabClickEvent.currentTarget;
-      clickedTab.classList.add("active");
-      tabClickEvent.preventDefault();
-      var myContentPanes = document.querySelectorAll(".tab-pane");
-      for (i = 0; i < myContentPanes.length; i++) {
-        myContentPanes[i].classList.remove("active");
-      }
-      var anchorReference = tabClickEvent.target;
-      var activePaneId = anchorReference.getAttribute("href");
-      var activePane = document.querySelector(activePaneId);
-      activePane.classList.add("active");
-    }
-    for (i = 0; i < myTabs.length; i++) {
-      myTabs[i].addEventListener("click", myTabClicks)
-    }
+     var myTabs = document.querySelectorAll("ul.nav-tabs > li");
+     function myTabClicks(tabClickEvent) {
+       for (var i = 0; i < myTabs.length; i++) {
+         myTabs[i].classList.remove("active");
+       }
+       var clickedTab = tabClickEvent.currentTarget;
+       clickedTab.classList.add("active");
+       tabClickEvent.preventDefault();
+       var myContentPanes = document.querySelectorAll(".tab-pane");
+       for (i = 0; i < myContentPanes.length; i++) {
+         myContentPanes[i].classList.remove("active");
+       }
+       var anchorReference = tabClickEvent.target;
+       var activePaneId = anchorReference.getAttribute("href");
+       var activePane = document.querySelector(activePaneId);
+       activePane.classList.add("active");
+     }
+     for (i = 0; i < myTabs.length; i++) {
+       myTabs[i].addEventListener("click", myTabClicks)
+     }
 
-    /* Waypoints */
+     /* Waypoints */
 
-    const targets = ['tab-token', 'tab-tickets', 'tab-gold', 'tab-gift-card', 'logo-why'];
-    targets.forEach(function(target) {
-      var el = document.getElementById(target);
-      var waypoint = new Waypoint({
-        element: el,
-        handler: function(direction) {
-          if(target === 'logo-why') {
-            el.classList.add('fadeInRight')
-          } else {
-            el.classList.add('fadeInLeft')
-          }
-        },
-        offset: '100%'
-      })
-    })
-  });
-</script>
+     const targets = ['tab-token', 'tab-tickets', 'tab-gold', 'tab-gift-card', 'logo-why'];
+     targets.forEach(function(target) {
+       var el = document.getElementById(target);
+       var waypoint = new Waypoint({
+         element: el,
+         handler: function(direction) {
+           if(target === 'logo-why') {
+             el.classList.add('fadeInRight')
+           } else {
+             el.classList.add('fadeInLeft')
+           }
+         },
+         offset: '100%'
+       })
+     })
+   });
+ </script>
